@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS numero_insegnanti_senza_telefono
+FROM `teachers`
+WHERE `phone` IS NULL;
