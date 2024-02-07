@@ -1,0 +1,5 @@
+SELECT `level` 
+FROM `degrees`
+INNER JOIN `departments` ON `degrees`.`department_id`= `departments`.id 
+WHERE `departments`.`name` = 'Dipartimento di Neuroscienze'
+AND `degrees`.`level` = 'magistrale'
