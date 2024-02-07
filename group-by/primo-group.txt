@@ -1,0 +1,3 @@
+SELECT `enrolment_date`, COUNT(*) AS `numero_iscritti`
+FROM `students`
+GROUP BY `enrolment_date`
